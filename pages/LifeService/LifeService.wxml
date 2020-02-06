@@ -1,0 +1,6 @@
+<view class="main-group">
+  <view class="main-group-item {{activeIndex == index ? 'active' : ''}}"
+   wx:for="{{tabs}}" wx:key="index" id="{{index}}"   bindtap="mainTabClick">
+    {{item}}
+  </view>
+</view>

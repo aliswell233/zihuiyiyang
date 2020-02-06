@@ -1,0 +1,17 @@
+<view class="signs-group">
+  <view class="blood-pressure">
+    <text>血压</text>
+  </view>
+  <view class="blood-oxygen">
+    <text>血氧</text>
+  </view>
+  <view class="heart-rate">
+    <text>心率</text>
+  </view>
+  <view class="pace">
+    <text>步伐</text>
+  </view>
+  <view class="calorie">
+    <text>卡路里</text>
+  </view>
+</view>

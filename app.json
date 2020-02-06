@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/LifeService/LifeService",
+    "pages/HealthBroad/HealthBroad",
+    "pages/HealthShop/HealthShop",
+    "pages/signs/signs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "智慧医养",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#666666",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "家庭医生",
+        "iconPath": "images/tabbar/table_home_doctor.png",
+        "selectedIconPath": "images/tabbar/table_home_doctor_press.png"
+      },
+      {
+        "pagePath": "pages/LifeService/LifeService",
+        "text": "生活服务",
+        "iconPath": "images/tabbar/table_life_service.png",
+        "selectedIconPath": "images/tabbar/table_life_service_press.png"
+      },
+      {
+        "pagePath": "pages/HealthBroad/HealthBroad",
+        "text": "健康科普",
+        "iconPath": "images/tabbar/table_health_board.png",
+        "selectedIconPath": "images/tabbar/table_health_board_press.png"
+      },
+      {
+        "pagePath": "pages/HealthShop/HealthShop",
+        "text": "健康商城",
+        "iconPath": "images/tabbar/table_life_shop.png",
+        "selectedIconPath": "images/tabbar/table_life_shop_press.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

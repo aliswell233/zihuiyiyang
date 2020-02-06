@@ -1,0 +1,19 @@
+/* pages/LifeService/LifeService.wxss */
+.main-group{
+  margin-top:40rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-around;
+  /* border-radius:30rpx; */
+  /* background-color: #1296db; */
+  /* text-align: center; */
+  line-height: 80rpx;
+}
+.main-group .main-group-item{
+  padding:0 20rpx;
+  border-radius: 12rpx;
+}
+.main-group .main-group-item.active{
+  color: #fff;
+  background-color: #1296db;
+}

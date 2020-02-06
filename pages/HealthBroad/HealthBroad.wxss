@@ -1,0 +1,17 @@
+.scroll-x-view{ 
+  margin-top: 30rpx;
+  width: 100%; 
+  /* background: rgb(218, 215, 215);  */
+  white-space: nowrap;
+  border-bottom: 20rpx;
+  }
+.scroll-x-view .scroll-view-item{
+   display:inline-block;
+   width: 30%; 
+   text-align: center;
+   padding-bottom: 24rpx;
+}
+.scroll-x-view .scroll-view-item.active{
+   color:blue;
+   border-bottom:1px solid blue;
+}

@@ -1,0 +1,14 @@
+<view  class="main-menu-group">
+  <view class="hospital-registration">
+     <image src="/images/home_doctor/hospital_registration.png"></image>
+     <view>医院挂号</view>
+  </view>
+  <view class="physical-signs" bindtap="onSigns">
+     <image src="/images/home_doctor/physical_signs.png"></image>
+     <view>体征检测</view>
+  </view>
+  <view class="famous-doctor">
+     <image src="/images/home_doctor/famous_doctor.png"></image>
+     <view>找名医</view>
+  </view>
+</view>

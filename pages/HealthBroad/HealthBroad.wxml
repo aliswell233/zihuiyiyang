@@ -1,0 +1,15 @@
+<!-- <scroll-view class='scroll-x-view' scroll-x="{{true}}"> 
+  <view class='scroll-view-item yangshen active'>养生专栏</view>
+  <view class='scroll-view-item zhongyao' >中药调理</view> 
+  <view class='scroll-view-item kepu'>疾病科普</view> 
+  <view class='scroll-view-item jijiu'>急救常识</view>
+</scroll-view> -->
+
+<scroll-view class='scroll-x-view' scroll-x="{{true}}"> 
+    <view wx:for="{{tabs}}" wx:key="index" id="{{index}}"  
+    class="scroll-view-item {{activeIndex == index ? 'active' : ''}}"
+    bindtap="tabClick">
+      {{item}}
+    </view>
+</scroll-view>
+

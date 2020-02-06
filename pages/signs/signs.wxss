@@ -1,0 +1,10 @@
+.signs-group{
+  margin-top: 70rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.signs-group>view{
+  width: 50%;
+  height: 90rpx;
+  text-align: center;
+}

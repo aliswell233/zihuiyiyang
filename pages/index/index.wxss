@@ -1,0 +1,25 @@
+.main-menu-group{
+  margin-top: 70rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu-group>view{
+  width: 33%;
+  text-align: center;
+}
+
+.main-menu-group .hospital-registration image{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.main-menu-group .physical-signs image{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.main-menu-group .famous-doctor image{
+  width: 70rpx;
+  height: 70rpx;
+}
