@@ -12,3 +12,27 @@
      <view>找名医</view>
   </view>
 </view>
+
+<!-- 下划线 -->
+<view id="xiahuaxian"></view>
+
+<!-- 专科门诊 -->
+<view id="menzhenContainer">
+  <view id="menzhenTitle">专科门诊</view>
+  <view id="menzhenContext">
+    <view wx:for='{{datas}}'>
+      <image src="{{item.urlImage}}" ></image>
+      <view>{{item.name}}</view>
+    </view>
+  </view>
+</view>
+
+<!-- 健康问卷 -->
+<view id="healthQuestion">
+  <view id="healthTitle">健康问卷</view>
+</view>
+
+<!-- 健康问卷 -->
+<view id="healthQuestion">
+  <view id="healthTitle">康复平台</view>
+</view>

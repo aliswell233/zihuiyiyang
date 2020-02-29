@@ -1,5 +1,5 @@
 .main-menu-group{
-  margin-top: 70rpx;
+  margin-top: 30rpx;
   display: flex;
   justify-content: space-around;
 }
@@ -22,4 +22,53 @@
 .main-menu-group .famous-doctor image{
   width: 70rpx;
   height: 70rpx;
+}
+#xiahuaxian{
+  margin: 20px 0px;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+#menzhenContainer{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  height: 200px;
+  margin: 0px 20px;
+}
+#menzhenTitle{
+  margin: 10px 0 0 10px;
+  font-size: 18px;
+}
+#menzhenContext{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+#menzhenContext image{
+  height: 70rpx;
+  width:70rpx;
+}
+#menzhenContext>view{
+  text-align: center;
+  height: 40%;
+  width:25%;
+}
+
+#healthQuestion{
+  display: flex;
+  flex-direction: column;
+  background: #f3f3f3;
+  height: 200px;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+#healthTitle{
+  font-size: 18px;
+  margin: 10px 0 0 10px;
+
 }
