@@ -1,0 +1,23 @@
+{
+  "name": "zihuiyiyang",
+  "version": "1.0.0",
+  "description": "更新内容：",
+  "main": "app.js",
+  "dependencies": {
+    "@antv/wx-f2": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliswell233/zihuiyiyang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliswell233/zihuiyiyang/issues"
+  },
+  "homepage": "https://github.com/aliswell233/zihuiyiyang#readme"
+}

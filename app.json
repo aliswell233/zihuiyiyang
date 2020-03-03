@@ -2,9 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/LifeService/LifeService",
-    "pages/HealthBroad/HealthBroad",
     "pages/HealthShop/HealthShop",
-    "pages/signs/signs"
+    "pages/signs/signs",
+    "pages/mine/mine",
+    "pages/signs/step/step",
+    "pages/signs/heartRate/heartRate",
+    "pages/signs/bloodPress/bloodPress",
+    "pages/signs/bloodOxygen/bloodOxygen"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -25,21 +29,21 @@
       },
       {
         "pagePath": "pages/LifeService/LifeService",
-        "text": "生活服务",
+        "text": "健康生活",
         "iconPath": "images/tabbar/table_life_service.png",
         "selectedIconPath": "images/tabbar/table_life_service_press.png"
-      },
-      {
-        "pagePath": "pages/HealthBroad/HealthBroad",
-        "text": "健康科普",
-        "iconPath": "images/tabbar/table_health_board.png",
-        "selectedIconPath": "images/tabbar/table_health_board_press.png"
       },
       {
         "pagePath": "pages/HealthShop/HealthShop",
         "text": "健康商城",
         "iconPath": "images/tabbar/table_life_shop.png",
         "selectedIconPath": "images/tabbar/table_life_shop_press.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/mine.png",
+        "selectedIconPath": "images/tabbar/mine_press.png"
       }
     ]
   },

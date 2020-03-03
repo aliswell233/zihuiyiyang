@@ -2,9 +2,29 @@
   margin-top: 70rpx;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .signs-group>view{
-  width: 50%;
-  height: 90rpx;
+  background: #f3f3f3;
+  width: 40%;
+  height: 200rpx;
+  border-radius: 10px;
+  margin-bottom: 10px;
   text-align: center;
+}
+
+.blood-pressure>image{
+  width: 70px;
+  height: 70px;
+}
+.f2-chart {
+  width: 100%;
+  height: 300rpx;
+}
+.container1{
+  margin: 10px;
+  border-radius: 10px;
+  background: #f2f2f2;
+  display: flex;
+  align-content: flex-start;
 }

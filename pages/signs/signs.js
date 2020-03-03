@@ -1,13 +1,55 @@
 // pages/signs/signs.js
+let ppp = [{ type: '填空1', value: 123 },
+  { type: '填空2', value: 321 },
+  { type: '填空3', value: 221 },
+  { type: '填空4', value: 221 },
+  { type: '填空5', value: 221 }]
+
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    
+    onInitChart(F2, config) {
+      const chart = new F2.Chart(config);
+      const data =ppp;
+      chart.scale('value',{
+        tickCount:5
+      })
+      chart.source(data);
+      chart.interval().position('type*value').color('type');
+      chart.legend(false)
+      chart.render();
+      // 注意：需要把chart return 出来
+      return chart;
+    }
   },
-
+  /*
+  自定义方法
+  */ 
+  bloodOxygen:function(){
+    wx.navigateTo({
+      url: '/pages/signs/bloodOxygen/bloodOxygen',
+    })
+  },
+  bloodPress: function () {
+    wx.navigateTo({
+      url: '/pages/signs/bloodPress/bloodPress',
+    })
+  },
+  heartRate: function () {
+    wx.navigateTo({
+      url: '/pages/signs/heartRate/heartRate',
+    })
+  },
+  step: function () {
+    wx.navigateTo({
+      url: '/pages/signs/step/step',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

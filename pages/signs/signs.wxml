@@ -1,17 +1,23 @@
+<view class="container1">
+  <f2 class="f2-chart" onInit="{{onInitChart}}" />
+</view>
+
 <view class="signs-group">
-  <view class="blood-pressure">
-    <text>血压</text>
+  <view class="blood-pressure" bindtap="bloodOxygen">
+    <image src="/images/home_doctor/jiance/bloodOxygen.png"></image>
+    <view>血氧</view>
   </view>
-  <view class="blood-oxygen">
-    <text>血氧</text>
+  <view class="blood-pressure" bindtap="bloodPress">
+    <image src="/images/home_doctor/jiance/bloodPress.png"></image>
+    <view>血压</view>
   </view>
-  <view class="heart-rate">
-    <text>心率</text>
+  <view class="blood-pressure" bindtap="heartRate">
+    <image src="/images/home_doctor/jiance/heartRate.png"></image>
+    <view>心率</view>
   </view>
-  <view class="pace">
-    <text>步伐</text>
+  <view class="blood-pressure" bindtap="step">
+    <image src="/images/home_doctor/jiance/step.png"></image>
+    <view>步伐</view>
   </view>
-  <view class="calorie">
-    <text>卡路里</text>
-  </view>
+  
 </view>
